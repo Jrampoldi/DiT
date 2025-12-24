@@ -1,1 +1,30 @@
-# DiT
+# Diffusion Models
+This repository contains implementations of DiT (Scalable Diffusion Models with Transformers)
+
+## Git clone
+'''
+git clone https://github.com/Jrampoldi/DiT.git
+'''
+
+## Install Environment via Anaconda (Recommended)
+'''
+cd DiT
+conda env create -f environment.yml
+conda activate DiT
+'''
+
+## Run Script
+'''
+chmod 777 run.sh
+./run.sh
+'''
+
+## Troubleshoot
+*explain error*
+'''
+pip uninstall torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+conda install python=3.10
+pip install diffusers
+pip install timm
+'''
