@@ -20,7 +20,7 @@ chmod 777 run.sh
 ```
 
 ## Troubleshoot
-*explain error*
+This will cover most issues that may occur
 ```bash
 pip uninstall torch torchvision torchaudio
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -28,3 +28,5 @@ conda install python=3.10
 pip install diffusers
 pip install timm
 ```
+
+
